@@ -1,0 +1,260 @@
+#okta-login-container.login-container {
+    margin-top: 110px !important;
+}
+
+.apploginbanner-container {
+    top: 83px !important;
+}
+
+.usa-banner__header-flag {
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+}
+
+body {
+    background: #f0f0f0 !important;
+    font: 400 17px 'Open Sans', 'Source Sans Pro', Helvetica, 'Neue', Helvetica, Arial, sans-serif;
+}
+
+#okta-login-container > main {
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: bold;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.top-banner {
+    background: #f0f0f0;
+    padding: 7px 15px;
+    /* font: 400 14px 'Source Sans Pro', Arial, Helvetica, sans-serif; */
+}
+
+.top-banner .spacing {
+    display: flex;
+    justify-content: space-between;
+}
+
+header,
+footer {
+    color: #fff; 
+}
+
+header {
+    background: #205493;
+    /* padding: 7px 140px; */
+    padding: 7px 15px;
+}
+
+header .title img {
+    width: 12.5rem;
+}
+
+.header-banner {
+    /* padding: 15px 140px; */
+    background: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    border-bottom: 1px solid #e1e3e4;
+}
+
+.occ-secure-sign-in {
+    text-transform: uppercase;
+}
+
+.spacing {
+    max-width: 1250px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header-banner a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header-banner a:visited {
+    color: #000;
+}
+
+.message {
+    /* padding: 24px 140px; */
+    padding: 24px 15px;
+    background: #fff;
+    color: #000;
+    font: 400 14px 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+.footer-links {
+    /* padding: 35px 140px; */
+    padding: 15px 15px;
+    background: #205493;
+    font-size: 14px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.footer-banner {
+    /* padding: 15px 140px; */
+    padding: 15px 15px;
+    background: #dfe1e2; 
+}
+
+.footer-links .footer-header {
+    font: 600 20px 'Merriweather', Georgia, Palatino, serif;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.footer-links .footer-logo-website > a {
+    font-weight: 600;
+}
+
+.footer-links img {
+    width: 35px;
+}
+
+.footer-links .link-box {
+    display: flex;
+    width: 300px;
+    min-width: 225px;
+}
+
+.footer-links .link-box .link-info {
+    margin-top: 5px;
+}
+
+.footer-links .link-box > div:first-child {
+    margin-right: 20px;
+}
+
+.footer-links .links > div {
+    margin-bottom: 25px;
+}
+
+.footer-links .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-links .links > div a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-links .links > div a:hover {
+    text-decoration: underline;
+}
+
+.footer-banner > span {
+    margin-right: 10px;
+}
+
+.footer-banner span {
+    margin-right: 24px;
+}
+
+.footer-banner a {
+    text-decoration: none;
+    color: #333;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 12px;
+}
+
+.footer-banner a:hover {
+    text-decoration: underline;
+}
+
+.footer-banner a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+.container {
+    padding: 50px 0;
+}
+
+.button.button-primary {
+    background: #205493 !important;
+}
+
+.okta-sign-in-header.auth-header {
+    display: none;
+}
+
+.okta-form-title.o-form-head {
+    text-align: left !important;
+}
+
+@media (max-width: 950px) {
+    .footer-links .links {
+        justify-content: space-around;
+    }
+}
+ 
+@media (max-width: 768px) {
+    .apploginbanner-container {
+        top: 99px !important;
+    }
+
+    .spacing {
+        max-width: 640px;
+    }
+
+    header,
+    .header-banner,
+    .message,
+    .footer-links,
+    .footer-banner {
+        padding: 15px;
+    }
+
+    .footer-banner > span {
+        display: block;
+    }
+
+    .footer-links .links {
+        display: block;
+    }
+
+    .footer-links .links {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 550px) {
+    .apploginbanner-container {
+        top: 110px !important;;
+    }
+
+    .top-banner {
+        font-size: 12px;
+    }
+
+    .spacing {
+        max-width: 460px;
+    }
+
+    header,
+    .header-banner,
+    .message,
+    .footer-links,
+    .footer-banner {
+        padding: 15px;
+    }
+
+    .footer-banner > span {
+        display: block;
+    }
+
+    .footer-links .links {
+        display: block;
+    }
+
+    .footer-links .links {
+        justify-content: space-around;
+    }
+}

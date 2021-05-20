@@ -189,6 +189,10 @@ header .title img {
     text-align: left !important;
 }
 
+.okta-container.applogin-banner.applogin-background {
+  display: inherit !important;
+}
+
 @media (max-width: 950px) {
     .footer-links .links {
         justify-content: space-around;

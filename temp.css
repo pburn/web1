@@ -189,7 +189,7 @@ header .title img {
     text-align: left !important;
 }
 
-.okta-container.applogin-banner.applogin-background {
+.okta-container .applogin-banner p {
   display: inherit !important;
 }
 
